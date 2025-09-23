@@ -10,18 +10,18 @@
         $x = $_GET["x"];
         $y = $_GET["y"];
         // Arithmetric operators
-        echo "x + y: " . ($x + $y) . "<br/>";
-        echo "x - y: " . ($x - $y) . "<br/>";
-        echo "x / y: " . ($x / $y) . "<br/>";
-        echo "x * y: " . ($x * $y) . "<br/>";
-        echo "x % y: " . ($x * $y) . "<br/>";
+        echo "$x + $y= " . ($x + $y) . "<br/>";
+        echo "$x - $y= " . ($x - $y) . "<br/>";
+        echo "$x / $y= " . ($x / $y) . "<br/>";
+        echo "$x * $y= " . ($x * $y) . "<br/>";
+        echo "$x % $y= " . ($x * $y) . "<br/>";
         // Comparison operators
-        echo "x == y: " . ($x == $y) . "<br/>";
-        echo "x != y: " . ($x != $y) . "<br/>";
-        echo "x < y: " . ($x < $y) . "<br/>";
-        echo "x > y: " . ($x > $y) . "<br/>";
-        echo "x <= y: " . ($x <= $y) . "<br/>";
-        echo "x >= y: " . ($x >= $y) . "<br/>";
+        echo "$x == $y= " . ($x == $y) . "<br/>";
+        echo "$x != $y= " . ($x != $y) . "<br/>";
+        echo "$x < $y= " . ($x < $y) . "<br/>";
+        echo "$x > $y= " . ($x > $y) . "<br/>";
+        echo "$x <= $y= " . ($x <= $y) . "<br/>";
+        echo "$x >= $y= " . ($x >= $y) . "<br/>";
         ?>
     </body>
 </html>
