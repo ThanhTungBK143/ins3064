@@ -10,12 +10,11 @@
         $x = $_GET["x"];
         $y = $_GET["y"];
         // Arithmetric operators
-        echo "x: " . $x . "<br/>";
-        echo "y: " . $y . "<br/>";
+        echo "x + y: " . ($x + $y) . "<br/>";
+        echo "x - y: " . ($x - $y) . "<br/>";
         echo "x/y: " . ($x / $y) . "<br/>";
+        echo "x * y: " . ($x * $y) . "<br/>";
         echo "x%y: " . ($x * $y) . "<br/>";
-        echo "x++: " . ($x++) . "<br/>";
-        echo "++y: " . (++$y) . "<br/>";
         // Comparison operators
         echo "x == y: " . ($x == $y) . "<br/>";
         echo "x != y: " . ($x != $y) . "<br/>";
