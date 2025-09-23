@@ -12,9 +12,9 @@
         // Arithmetric operators
         echo "x + y: " . ($x + $y) . "<br/>";
         echo "x - y: " . ($x - $y) . "<br/>";
-        echo "x/y: " . ($x / $y) . "<br/>";
+        echo "x / y: " . ($x / $y) . "<br/>";
         echo "x * y: " . ($x * $y) . "<br/>";
-        echo "x%y: " . ($x * $y) . "<br/>";
+        echo "x % y: " . ($x * $y) . "<br/>";
         // Comparison operators
         echo "x == y: " . ($x == $y) . "<br/>";
         echo "x != y: " . ($x != $y) . "<br/>";
