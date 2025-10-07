@@ -30,7 +30,8 @@ if (isset($_POST['login'])) {
         <input type="text" name="username" required><br><br>
         <label for="">Password:</label>
         <input type="password" name="password" id="" required><br><br>
-        <input type="submit" name="login" value="Login">
+        <input type="submit" name="login" value="Login"><br><br>
+        <input type="button" name="register" value="Go to Register" onclick="window.location.href='register.php'">
     </form>
 </body>
 </html>
