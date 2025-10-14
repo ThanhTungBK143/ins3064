@@ -3,14 +3,14 @@ session_start();
 
 /* connect to database check user*/
 $con=mysqli_connect('localhost','root');
-mysqli_select_db($con,LoginReg);
+mysqli_select_db($con,'LoginReg');
 
 /* create variables to store data */
-$name =$_POST['user'];
+$name =$_POST['username'];
 $pass =$_POST['password'];
 
 /* select data from DB */
-$s="select * from userReg where name='$name'&& password='$pass'";
+$s="select * from userReg where username='$name'&& password='$pass'";
 
 /* result variable to store data */
 $result = mysqli_query($con,$s);
@@ -22,5 +22,6 @@ if($num==1){
     $_SESSION['username'] =$name;
     header('location:home.php');
 }else{
-    header('location:login.php');
+    echo "Invalid username or password";
+    echo "<meta http-equiv='refresh' content='2;url=login.php'>";
 }

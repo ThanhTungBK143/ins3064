@@ -23,7 +23,7 @@
                    <div class="form-group">
                        <label>Username</label>
                        <label>
-                           <input type="text" name="user" class="form-control" required>
+                           <input type="text" name="username" class="form-control" required>
                        </label>
                    </div>
                    <div class="form-group">
@@ -41,7 +41,7 @@
                         <div class="form-group">
                             <label>Username</label>
                             <label>
-                                <input type="text" name="user" class="form-control" required>
+                                <input type="text" name="username" class="form-control" required>
                             </label>
                         </div>
                         <div class="form-group">

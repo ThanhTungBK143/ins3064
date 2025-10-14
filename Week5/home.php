@@ -2,9 +2,11 @@
 session_start();
 if(!isset($_SESSION['username'])){
     header('location:login.php');
+    exit();
 }
+$username = $_SESSION['username'];
 ?>
-
+<!DOCTYPE html>
 <html lang='en'>
 <head>
     <title>Home page</title>
@@ -15,13 +17,10 @@ if(!isset($_SESSION['username'])){
 
 </head>
 <body>
-<div class="container">
+    <div class="container"> 
+        <a class="btn btn-danger float-right" href="logout.php">LOGOUT</a>
+        <h1>Welcome, <?php echo htmlspecialchars($username); ?> 👋</h1>
 
-    <a class="float-right" href="logout.php">LOGOUT</a>
-    <h1>Welcome <? echo $_SESSION['username']; ?> </h1>
-
-</div>
-
-
-
+    </div>
 </body>
+</html>
